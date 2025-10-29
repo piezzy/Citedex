@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
-import { DesignSystem } from "./components/DesignSystem";
+import { Header } from "./components/Header";
+import { HeroSection } from "./components/HeroSection";
+import { FeaturesSection } from "./components/FeaturesSection";
+import { DemoSection } from "./components/DemoSection";
+import { PricingSection } from "./components/PricingSection";
+import { TestimonialsSection } from "./components/TestimonialsSection";
+import { Footer } from "./components/Footer";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,5 +31,17 @@ export default function App() {
     }
   };
 
-  return <DesignSystem darkMode={darkMode} toggleDarkMode={toggleDarkMode} />;
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <main>
+        <HeroSection />
+        <FeaturesSection />
+        <DemoSection />
+        <PricingSection />
+        <TestimonialsSection />
+      </main>
+      <Footer />
+    </div>
+  );
 }
