@@ -1,0 +1,458 @@
+[
+  {
+    "chunk_id": "chunk_0000",
+    "text": "LAPORAN COMPUTING PROJECT \nPENGEMBANGAN APLIKASI WEB SISTEM MANAJEMEN \nDAN RESOLVER DIGITAL RESOURCE IDENTIFIER (DRI) \nDENGAN PENDEKATAN AGILE \n \n \n \nOleh: \nMohammad Hikam Abdul Karim​\n​\n​\n2211102278 \nMuhammad Rijal Eka Farizky​\n​\n​\n2211102292 \nBima Adhi Nugraha​ ​\n​\n​\n​\n2211102304 \nFikri Fitrah Ramadani​​\n​\n​\n​\n2211102277 \nZahrul Alam ​ ​\n​\n​\n​\n​\n2211102280 \nThoriq Azzukhruf El Fuad​\n​\n​\n​\n2211102298 \nAnang Ma’ruf​​\n​\n​\n​\n​\n2211102310 \n \n \n \n \nPROGRAM STUDI S1 TEKNIK INFORMATIKA \nDIREKTORAT KAMPUS PURWOKERTO \nUNIVERSITAS TELKOM \nDESEMBER 2025",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 1
+    }
+  },
+  {
+    "chunk_id": "chunk_0001",
+    "text": "HALAMAN PENGESAHAN \n \n \nii",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 2
+    }
+  },
+  {
+    "chunk_id": "chunk_0002",
+    "text": "DAFTAR ISI \nHALAMAN PENGESAHAN..................................................................................................ii \nDAFTAR ISI............................................................................................................................iii \nDAFTAR GAMBAR............................................................................................................... iv \nDAFTAR TABEL..................................................................................................................... v \nBAB I PENDAHULUAN.........................................................................................................1 \n1.1. Latar Belakang.............................................................................................................. 1 \n1.2. Tujuan............................................................................................................................1",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 3
+    }
+  },
+  {
+    "chunk_id": "chunk_0003",
+    "text": "1.2. Tujuan............................................................................................................................1 \n1.3. Manfaat..........................................................................................................................1 \n1.4. Ruang Lingkup..............................................................................................................2 \n1.5. Susunan Anggota, Job Desk, dan Timeline Pengerjaan................................................2 \nBAB II TINJAUAN TEORI....................................................................................................5 \n2.1.  Persistent Identifier (PID) dan Resolver...................................................................... 5 \n2.2.  Framework Laravel...................................................................................................... 5",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 3
+    }
+  },
+  {
+    "chunk_id": "chunk_0004",
+    "text": "2.2.  Framework Laravel...................................................................................................... 5 \n2.3.  Software as a Service (SaaS)........................................................................................5 \n2.4.  Metodologi Agile......................................................................................................... 5 \nBAB III PERANCANGAN PROYEK....................................................................................6 \n3.1. Deskripsi Proyek........................................................................................................... 6 \n3.2.  Teknologi yang Digunakan (Tools/Framework).......................................................... 7 \n3.3.  Fitur-fitur dalam Proyek yang Dikembangkan.............................................................7 \n3.4.  Perancangan Sistem......................................................................................................8",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 3
+    }
+  },
+  {
+    "chunk_id": "chunk_0005",
+    "text": "3.4.  Perancangan Sistem......................................................................................................8 \n3.4.1 Tabel Functional Requirement.............................................................................. 8 \n3.4.2 Use Case Diagram...............................................................................................10 \n3.4.3 Class Diagram..................................................................................................... 10 \n3.4.4 Flow Chart...........................................................................................................11 \nBAB IV IMPLEMENTASI DAN HASIL.............................................................................12 \n4.1. Hasil Produk................................................................................................................12 \n4.1.1.  Halaman Resolver Tautan DRI (Akses Publik).................................................12",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 3
+    }
+  },
+  {
+    "chunk_id": "chunk_0006",
+    "text": "4.1.1.  Halaman Resolver Tautan DRI (Akses Publik).................................................12 \n4.1.2 Halaman Login Owner........................................................................................13 \n4.1.3 Dashboard Owner................................................................................................13 \n4.1.4 Manajemen Hirarki Publikasi..............................................................................14 \n4.1.5. Manajemen Paket Berlangganan........................................................................15 \n4.2. Hasil Pengujian Produk...............................................................................................15 \nBAB V PENUTUP..................................................................................................................17 \n5.1.  Kesimpulan.................................................................................................................17",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 3
+    }
+  },
+  {
+    "chunk_id": "chunk_0007",
+    "text": "5.1.  Kesimpulan.................................................................................................................17 \n5.2. Saran............................................................................................................................17 \nDAFTAR PUSTAKA..............................................................................................................18 \nLAMPIRAN............................................................................................................................19 \n \niii",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 3
+    }
+  },
+  {
+    "chunk_id": "chunk_0008",
+    "text": "DAFTAR GAMBAR \nGambar 3.1 Use Case Diagram................................................................................................10 \nGambar 3.2 Class Diagram...................................................................................................... 10 \nGambar 3.3 Flowchart..............................................................................................................11 \nGambar 4.1 Halaman Resolver Tautan DRI.............................................................................12 \nGambar 4.2 Halaman Login Owner......................................................................................... 13 \nGambar 4.3 Halaman Dashboard Owner................................................................................. 14 \nGambar 4.4 Halaman Manajemen Hirarki Publikasi............................................................... 14",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 4
+    }
+  },
+  {
+    "chunk_id": "chunk_0009",
+    "text": "Gambar 4.4 Halaman Manajemen Hirarki Publikasi............................................................... 14 \nGambar 4.5 Halaman Paket Berlangganan...............................................................................15 \n \n \niv",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 4
+    }
+  },
+  {
+    "chunk_id": "chunk_0010",
+    "text": "DAFTAR TABEL \nTabel 1.1 Susunan Anggota, Jobdesk, dan Timeline Pengerjaan...............................................2 \nTabel 3.1 Functional Requirement............................................................................................. 8 \nTabel 4.1 Hasil Pengujian Produk............................................................................................ 15 \n \n \nv",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 5
+    }
+  },
+  {
+    "chunk_id": "chunk_0011",
+    "text": "BAB I ​\nPENDAHULUAN \n1.1.​\nLatar Belakang \nDalam era publikasi digital, keberadaan tautan permanen atau Persistent Identifier \n(PID) menjadi krusial untuk memastikan aksesibilitas jangka panjang terhadap karya ilmiah. \nMasalah utama yang sering dihadapi adalah link rot, yaitu fenomena dimana tautan (URL) \nmenuju sumber daya digital menjadi rusak atau tidak dapat diakses karena perubahan lokasi \nfile [1]. Sistem Digital Object Identifier (DOI) telah menjadi standar global untuk mengatasi \nmasalah ini, namun implementasinya seringkali memerlukan biaya tinggi dan infrastruktur \nteknis yang kompleks bagi penerbit skala kecil atau institusi pendidikan lokal. \nBerdasarkan permasalahan tersebut, dibutuhkan sebuah solusi alternatif berupa sistem \nmanajemen dan resolver identitas digital yang lebih terjangkau namun tetap fungsional. \nProyek ini mengembangkan aplikasi web Digital Resource Identifier (DRI) yang",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 6
+    }
+  },
+  {
+    "chunk_id": "chunk_0012",
+    "text": "Proyek ini mengembangkan aplikasi web Digital Resource Identifier (DRI) yang \nmemungkinkan penerbit jurnal untuk mendaftarkan artikel mereka dan mendapatkan tautan \npermanen. Sistem ini dirancang menggunakan kerangka kerja Laravel yang menawarkan \nkeamanan, skalabilitas, dan kemudahan pengembangan [2]. Dengan adanya sistem ini, \npengelolaan metadata artikel dan pengalihan tautan (resolving) dapat dilakukan secara \nterpusat dan efisien. \n \n1.2.​\nTujuan \nTujuan dari pengembangan proyek ini adalah: \n1.​ Merancang dan membangun aplikasi web Digital Resource Identifier (DRI) yang \nberfungsi sebagai registry dan resolver untuk artikel ilmiah. \n2.​ Mengimplementasikan fitur manajemen hirarki jurnal (Jurnal, Volume, Isu, Artikel) \nbagi penerbit (Publisher). \n3.​ Menyediakan layanan pengalihan URL (resolver) yang cepat dan akurat untuk \nmemastikan tautan artikel tetap dapat diakses meskipun lokasi aslinya berubah. \n \n1.3.​\nManfaat \nManfaat yang diharapkan dari proyek ini adalah:",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 6
+    }
+  },
+  {
+    "chunk_id": "chunk_0013",
+    "text": "memastikan tautan artikel tetap dapat diakses meskipun lokasi aslinya berubah. \n \n1.3.​\nManfaat \nManfaat yang diharapkan dari proyek ini adalah: \n1.​ Bagi Penerbit/Institusi: Memudahkan pengelolaan metadata jurnal dan memberikan \nlayanan tautan permanen yang meningkatkan kredibilitas publikasi. \n1",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 6
+    }
+  },
+  {
+    "chunk_id": "chunk_0014",
+    "text": "2.​ Bagi Peneliti/Pengguna: Menjamin aksesibilitas jangka panjang terhadap referensi \nilmiah tanpa khawatir tautan rusak (broken link). \n3.​ Bagi Pengembang: Menerapkan konsep Model-View-Controller (MVC) dan \nmetodologi Agile dalam pengembangan perangkat lunak berskala enterprise \nmenggunakan Laravel. \n \n1.4.​\nRuang Lingkup \nBatasan masalah dan ruang lingkup dalam pengerjaan proyek ini meliputi: \n1.​ Aplikasi dibangun berbasis web menggunakan Framework Laravel versi 12. \n2.​ Fitur utama mencakup manajemen data jurnal, manajemen artikel, mekanisme \nresolver tautan, dan analitik klik sederhana. \n3.​ Sistem memiliki dua aktor utama: Owner (Penerbit yang mengelola artikel) dan Client \n(Pengguna umum yang mengakses/me-resolve tautan). \n4.​ Implementasi model bisnis berlangganan (SaaS) dengan pembatasan fitur berdasarkan \npaket yang dipilih. \n \n1.5.​\nSusunan Anggota, Job Desk, dan Timeline Pengerjaan \nTabel 1.1 Susunan Anggota, Jobdesk, dan Timeline Pengerjaan \nNama \nJobdesk",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 7
+    }
+  },
+  {
+    "chunk_id": "chunk_0015",
+    "text": "1.5.​\nSusunan Anggota, Job Desk, dan Timeline Pengerjaan \nTabel 1.1 Susunan Anggota, Jobdesk, dan Timeline Pengerjaan \nNama \nJobdesk \nTimeline Pengerjaan \nMohammad Hikam Abdul \nKarim (Project Manager) \n1.​ Membuat Diagram Alir \npengerjaan project \n2.​ Membuat tampilan website \nawal dan merancang fitur. \n3.​ Memimpin perencanaan \nsprint Agile, \nmengalokasikan tugas tim, \ndan memastikan \nimplementasi fitur inti \nberjalan sesuai mutu dan \njadwal. \n4.​ Menyusun dan \nmemfinalisasi laporan \nakademik (Bab I, II, III). \nMinggu 1 - 6 : Perancangan \nFitur awal dan pembuatan \nhalaman frontend awal \n \nMinggu 7 - 14 :  \nKoordinasi & Kontrol \n \nMinggu 12 - 16 :  \nFinalisasi Laporan \n \nFikri Fitrah Ramadani \n(Backend)  \n1.​ Merancang dan \nmengimplementasikan \nstruktur database (jurnal, \nvolume, artikel, user, paket \nberlangganan) \nMinggu 1–6: Implementasi \nsistem paket berlangganan \ndan kontrol akses \n \nMinggu 7–14: Integrasi \n2",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 7
+    }
+  },
+  {
+    "chunk_id": "chunk_0016",
+    "text": "2.​ Implementasi CRUD \nmanajemen jurnal, volume, \ndan artikel \n3.​ Implementasi fitr \npembayaran \n \n \ndengan frontend & perbaikan \nbug \n \nMinggu 15–16: Pengujian \nbackend dan finalisasi \nBima Adhi Nugraha \n(Back End) \n1.​ Membuat dan merancang \nfitur serta struktur publikasi \npada Digital Object \n2.​ Mendesain Database dan \ntabel Digital Object \n3.​ Membuat fitur Auth \n(Login, Register, Logout) \n4.​ Berkontribusi pada \nimplementasi fitur \npembayaran \nMinggu 1 : Desain dan \npembuatan database \n \nMinggu 2–6: Implementasi \nsistem Auth dan CRUD \n \nMinggu 7–12: Integrasi \ndengan frontend & perbaikan \nbug \n \nMinggu 13-15 : Implementasi \nsistem pembayaran \nThoriq Azzukhruf El Fuad \n(Front-End) \n1.​ Perancangan dan slicing \nantarmuka pengguna \n2.​ Pengembangan \nkomponen interaktif \n3.​ Perancangan tampilan \npelaporan data \n4.​ Integrasi antarmuka \nfront-end \nMinggu 1–6: Perancangan tata \nletak sistem publikasi serta \npembuatan komponen \nantarmuka dasar. \n \nMinggu 7–14: Penerapan",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 8
+    }
+  },
+  {
+    "chunk_id": "chunk_0017",
+    "text": "front-end \nMinggu 1–6: Perancangan tata \nletak sistem publikasi serta \npembuatan komponen \nantarmuka dasar. \n \nMinggu 7–14: Penerapan \nlogika formulir dinamis dan \nvalidasi di sisi klien. \n \nMinggu 12–16: Pengujian \npengalaman pengguna (UX) \ndan penyempurnaan tampilan \nantarmuka. \nZahrul Alam  \n(System Analyst) \n1.​ Perancangan arsitektur \nsistem \n2.​ Pembuatan wireframe \nwebsite. \n3.​ Pembuatan diagram alir, \nuse case diagram, dan \nflowchart \n4.​ memfinalisasi struktur \ndata untuk registry \nidentitas sumber daya \ndan sistem paket \nberlangganan, \nMinggu 1 - Minggu 6 \nMelakukan perancangan \narsitektur sistem \n \n \nMinggu 12 - Minggu 16 \nMelakukan finalisasi \narsitektur sistem \n3",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 8
+    }
+  },
+  {
+    "chunk_id": "chunk_0018",
+    "text": "Anang Maruf \n1.​ Melakukan testing \nwebsite dengan \nblackbox testing. \nMinggu 12 - Minggu 16 \nMelakukan blackbox testing \nMuhammad Rijal Eka Farizky \n(Front-End) \n1.​ Desain & Slicing UI \n2.​ Interactive Components \n3.​ Data Reporting UI \n4.​ Front-End Integration \nMinggu 1 - Minggu 6 \nLayouting sistem publikasi & \ndesain komponen dasar. \n \nMinggu 7 - Minggu 14 \nIntegrasi logika form dinamis \n& validasi client-side. \n \nMinggu 12 - Minggu 16 \nTesting UX & finalisasi \nantarmuka. \n \n \n4",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 9
+    }
+  },
+  {
+    "chunk_id": "chunk_0019",
+    "text": "BAB II ​\nTINJAUAN TEORI \n2.1. ​\nPersistent Identifier (PID) dan Resolver \nPersistent Identifier (PID) adalah referensi jangka panjang ke dokumen, file, atau \nhalaman web. Berbeda dengan URL biasa yang menunjukkan lokasi, PID menunjukkan \nidentitas objek tersebut. Sistem resolver bertugas menerjemahkan PID menjadi URL lokasi \nterkini. Menurut Paskin, sistem seperti DOI sangat penting dalam infrastruktur informasi \ndigital untuk manajemen hak cipta dan sitasi yang akurat [4]. Dalam proyek ini, konsep PID \ndiimplementasikan melalui mekanisme routing yang menangkap pola unik DRI dan \nmengarahkannya ke target URL. \n2.2. ​\nFramework Laravel \nLaravel adalah kerangka kerja aplikasi web berbasis PHP yang ekspresif dan elegan. \nLaravel mengikuti pola arsitektur Model-View-Controller (MVC) yang memisahkan logika \naplikasi (Controller), antarmuka pengguna (View), dan struktur data (Model). Keunggulan \nLaravel meliputi fitur bawaan seperti routing, middleware, dan ORM (Object-Relational",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 10
+    }
+  },
+  {
+    "chunk_id": "chunk_0020",
+    "text": "Laravel meliputi fitur bawaan seperti routing, middleware, dan ORM (Object-Relational \nMapping) bernama Eloquent yang mempermudah interaksi dengan basis data [2]. Dalam \npengembangan sistem DRI, Laravel digunakan untuk menangani logika backend yang \nkompleks serta keamanan otentikasi pengguna. \n2.3. ​\nSoftware as a Service (SaaS) \nSoftware as a Service (SaaS) adalah model distribusi perangkat lunak di mana \npenyedia layanan menghosting aplikasi dan membuatnya tersedia bagi pelanggan melalui \ninternet. Karakteristik utama SaaS adalah pembayaran berbasis langganan (subscription) dan \narsitektur multi-tenant [5]. Proyek ini mengadopsi model SaaS dengan menyediakan \ntingkatan layanan (Gratis dan Premium) yang memberikan batasan kuota artikel dan durasi \nlayanan yang berbeda bagi setiap pengguna. \n2.4. ​\nMetodologi Agile \nMetodologi Agile adalah pendekatan pengembangan perangkat lunak yang \nmenekankan pada kolaborasi tim, pengiriman perangkat lunak yang berfungsi secara",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 10
+    }
+  },
+  {
+    "chunk_id": "chunk_0021",
+    "text": "menekankan pada kolaborasi tim, pengiriman perangkat lunak yang berfungsi secara \nbertahap, dan responsivitas terhadap perubahan kebutuhan. Agile memecah proyek besar \nmenjadi iterasi-iterasi kecil yang disebut sprint [3]. Pendekatan ini relevan dengan \npengembangan DRI karena memungkinkan penambahan fitur secara bertahap, mulai dari \nfungsi resolver dasar hingga fitur manajemen paket berlangganan yang lebih kompleks.\n5",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 10
+    }
+  },
+  {
+    "chunk_id": "chunk_0022",
+    "text": "BAB III ​\nPERANCANGAN PROYEK \n3.1.​\nDeskripsi Proyek \nProyek Aplikasi Web Digital Resource Identifier (DRI) dilaksanakan dengan \nmetodologi Agile dalam durasi total 16 minggu. Pengerjaan proyek ini dibagi menjadi empat \nfase utama: Perancangan, Implementasi Modul Manajemen, Integrasi Fitur Inti (Resolver dan \nBisnis), dan Finalisasi/Pengujian. Setiap tahapan dilaksanakan melalui kolaborasi erat antar \nperan yang dispesialisasikan. \nPengerjaan dimulai dengan tahap Perancangan di mana Project Manager (PM) dan \nSystem Analyst berkolaborasi untuk menghasilkan wireframe desain antarmuka pengguna, \nmemfinalisasi struktur data untuk pencatatan identitas sumber daya dan sistem paket \nberlangganan, serta menentukan arsitektur sistem. Setelah desain stabil, fase Implementasi \ndimulai, di mana Back-End Developer fokus pada implementasi logika manajemen konten \npenerbit, sementara Front-End Developer melakukan slicing tampilan Dasbor Owner. Fase",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 11
+    }
+  },
+  {
+    "chunk_id": "chunk_0023",
+    "text": "penerbit, sementara Front-End Developer melakukan slicing tampilan Dasbor Owner. Fase \nIntegrasi melibatkan Back-End Developer untuk logika resolusi tautan dan mekanisme \nkontrol akses paket. Seluruh proses diakhiri dengan fase Pengujian, dipimpin oleh peran \nSystem Testing. \nPembagian Tugas (Individu dan Kelompok) Berdasarkan Peran: \n1.​ Project Manager (PM): Bertanggung jawab utama memimpin sprint planning, \nmengalokasikan sumber daya, memonitor progres harian, dan mengawasi jalannya \nproyek secara keseluruhan. PM secara individu juga menyusun seluruh dokumentasi \ndan laporan akhir proyek. \n2.​ System Analyst (SA): Bertanggung jawab penuh atas perancangan arsitektur sistem, \nmemfinalisasi struktur data untuk registry identitas sumber daya dan sistem paket \nberlangganan, serta merumuskan batasan fungsional dan logika bisnis sistem. \n3.​ Back-End Developer: Bertanggung jawab atas seluruh fungsionalitas sisi server",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 11
+    }
+  },
+  {
+    "chunk_id": "chunk_0024",
+    "text": "3.​ Back-End Developer: Bertanggung jawab atas seluruh fungsionalitas sisi server \nsecara terpadu. Tugasnya mencakup implementasi manajemen konten penerbit \n(CRUD data publikasi), pembuatan logika Resolusi Tautan, serta mekanisme kontrol \nakses ke fitur berbayar. Tugas ini berkolaborasi erat dengan Front-End Developer \nuntuk integrasi data. \n4.​ Front-End Developer: Bertanggung jawab penuh atas implementasi user interface \n(UI) dan user experience (UX). Tugasnya mencakup slicing Dasbor Owner, formulir \n6",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 11
+    }
+  },
+  {
+    "chunk_id": "chunk_0025",
+    "text": "input artikel, tampilan publik, serta halaman pilihan paket layanan. Peran ini \nberkolaborasi dengan Back-End Developer untuk menampilkan data dinamis. \n5.​ System Testing: Bertugas secara mandiri dalam melakukan Unit Testing dan Black \nBox Testing pada seluruh modul sistem, mulai dari fungsionalitas Autentikasi hingga \nvalidasi fitur Resolusi final, dan melaporkan bug kepada tim Developer. \n \n3.2. ​\nTeknologi yang Digunakan (Tools/Framework) \nPengembangan proyek DRI menggunakan teknologi berikut untuk memastikan lingkungan \npengembangan yang stabil, modern, dan aman: \n1.​ Framework Backend: Laravel versi 12.0, sebagai kerangka kerja utama berbasis PHP \nyang mengadopsi pola arsitektur MVC (Model-View-Controller). \n2.​ Bahasa Pemrograman: PHP (minimal versi 8.2). \n3.​ Basis Data: MySQL, digunakan untuk menyimpan data relasional seperti Registry \nIdentitas Sumber Daya, data jurnal, dan data paket berlangganan.",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 12
+    }
+  },
+  {
+    "chunk_id": "chunk_0026",
+    "text": "3.​ Basis Data: MySQL, digunakan untuk menyimpan data relasional seperti Registry \nIdentitas Sumber Daya, data jurnal, dan data paket berlangganan. \n4.​ Frontend Styling: Tailwind CSS, digunakan untuk styling antarmuka pengguna, \nmendukung desain yang responsif dan cepat. \n5.​ Asset Bundling: Vite, digunakan untuk kompilasi dan manajemen aset frontend. \n \n3.3. ​\nFitur-fitur dalam Proyek yang Dikembangkan \nAplikasi DRI memiliki dua set fitur utama yang melayani publik umum (Client) dan penerbit \njurnal (Owner), serta dilengkapi fitur pendukung model bisnis: \nA. Fitur Resolver (Akses Publik) \nResolver Tautan DRI berfungsi sebagai mesin pengalihan yang menerima permintaan \nidentitas sumber daya di routing publik dan mengalihkan pengguna ke URL target artikel \nyang paling baru, dimana Analitik Sederhana sistem secara otomatis mencatat dan menambah \npenghitung klik setiap kali identitas sumber daya diakses untuk memberikan statistik \npenggunaan artikel.",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 12
+    }
+  },
+  {
+    "chunk_id": "chunk_0027",
+    "text": "penghitung klik setiap kali identitas sumber daya diakses untuk memberikan statistik \npenggunaan artikel. \nB. Fitur Manajemen (Dashboard Owner) \nManajemen Hirarki Publikasi menyediakan antarmuka untuk melakukan operasi \nCRUD (Create, Read, Update, Delete) pada Jurnal, Volume, dan Artikel, menciptakan \nstruktur data akademik yang rapi, dengan didukung Generasi Kode Identitas Otomatis yang \nmenghasilkan kode DRI unik dan lengkap saat artikel baru diinput untuk meminimalkan \nkesalahan penulisan, dan Penerbit juga memiliki Kontrol Status Artikel penuh untuk \nmengaktifkan atau menonaktifkan tampilan artikel. \n7",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 12
+    }
+  },
+  {
+    "chunk_id": "chunk_0028",
+    "text": "C. Fitur Bisnis (SaaS) \nSistem Paket Berlangganan menyediakan model bisnis freemium dengan berbagai \npaket (Gratis, Premium) yang memiliki batasan kuota artikel dan durasi layanan, dilengkapi \nValidasi Akses Fitur yang berfungsi sebagai paywall logis untuk memblokir akses ke modul \nmanajemen artikel bagi pemilik yang belum memilih paket layanan, dan juga memungkinkan \nManajemen Profil akun pemilik untuk memperbarui data pribadi dan mengubah kata sandi. \n \n3.4. ​\nPerancangan Sistem \nPerancangan sistem merupakan tahapan lanjutan setelah analisis kebutuhan sistem \nyang bertujuan untuk memberikan gambaran secara detail mengenai bagaimana sistem akan \ndibangun dan diimplementasikan. Pada tahap ini, perancangan sistem dilakukan untuk \nmemastikan bahwa seluruh kebutuhan fungsional yang telah diidentifikasi dapat diwujudkan \nsecara terstruktur dan sistematis. \n3.4.1​ Tabel Functional Requirement \nTabel 3.1 Functional Requirement \nNo \nAktor \nFunctional \nRequirement \nDeskripsi \nFR-01 \nUser",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 13
+    }
+  },
+  {
+    "chunk_id": "chunk_0029",
+    "text": "3.4.1​ Tabel Functional Requirement \nTabel 3.1 Functional Requirement \nNo \nAktor \nFunctional \nRequirement \nDeskripsi \nFR-01 \nUser \nRegistrasi akun \nUser dapat membuat akun baru melalui halaman \nregister \nFR-02 \nUser \nLogin sistem \nUser dapat masuk ke sistem menggunakan email \ndan password \nFR-03 \nSistem \nValidasi login \nSistem memverifikasi data login user \nFR-04 \nUser \nLogout \nUser dapat keluar dari sistem \nFR-05 \nUser \nAkses \ndashboard \nUser dapat mengakses dashboard setelah login \nFR-06 \nUser \nInput metadata \nmanual \nUser menginput metadata secara manual \nFR-07 \nUser \n(Premiu\nm) \nInput metadata \notomatis \nUser premium dapat input metadata otomatis \nmenggunakan API \n8",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 13
+    }
+  },
+  {
+    "chunk_id": "chunk_0030",
+    "text": "FR-08 \nSistem \nValidasi \nmetadata \nSistem memeriksa kelengkapan metadata \nFR-09 \nSistem \nSimpan \nmetadata \nSistem menyimpan metadata ke database \nFR-10 \nUser \nRegistrasi DOI \nUser melakukan pendaftaran DOI \nFR-11 \nSistem \nGenerate DOI \nSistem menghasilkan nomor DOI otomatis \nFR-12 \nUser \nLihat DOI \nUser melihat nomor DOI dan tanggal registrasi \nFR-13 \nUser \nLihat \nstatistik \ndasar \nUser free melihat statistik dasar \nFR-14 \nUser \n(Premiu\nm) \nLihat \nstatistik \nlanjutan \nUser premium melihat statistik lanjutan \nFR-15 \nSistem \nCatat \nstatistik \nakses \nSistem mencatat jumlah akses user \nFR-16 \nSistem \nCatat \nstatistik \nupload \nSistem mencatat jumlah upload metadata \nFR-17 \nUser \nUpgrade \npremium \nUser melakukan upgrade akun premium \nFR-18 \nSistem \nKelola \nsubscription \nSistem mengatur status subscription \nFR-19 \nSistem \nPembatasan \nfitur \nSistem membatasi fitur berdasarkan tipe akun \nFR-20 \nUser \nKelola \nmetadata \nUser dapat mengubah dan menghapus metadata \nFR-21 \nSistem \nSimpan DOI",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 14
+    }
+  },
+  {
+    "chunk_id": "chunk_0031",
+    "text": "Sistem membatasi fitur berdasarkan tipe akun \nFR-20 \nUser \nKelola \nmetadata \nUser dapat mengubah dan menghapus metadata \nFR-21 \nSistem \nSimpan DOI \nSistem menyimpan data DOI ke database \nFR-22 \nSistem \nNotifikasi \nsistem \nSistem menampilkan notifikasi berhasil/gagal \nFR-23 \nUser \nAkses bantuan \nUser mengakses halaman bantuan \n \n9",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 14
+    }
+  },
+  {
+    "chunk_id": "chunk_0032",
+    "text": "3.4.2​ Use Case Diagram \n​\n \nGambar 3.1 Use Case Diagram \n3.4.3​ Class Diagram \n​\n \nGambar 3.2 Class Diagram \n \n10",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 15
+    }
+  },
+  {
+    "chunk_id": "chunk_0033",
+    "text": "3.4.4​ Flow Chart \n​\n \nGambar 3.3 Flowchart \n \n11",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 16
+    }
+  },
+  {
+    "chunk_id": "chunk_0034",
+    "text": "BAB IV ​\nIMPLEMENTASI DAN HASIL \n4.1.​\nHasil Produk \nPada tahap implementasi, aplikasi web Digital Resource Identifier (DRI) telah \nberhasil dikembangkan sesuai dengan perancangan yang dijelaskan pada Bab III. Aplikasi ini \ndibangun menggunakan framework Laravel versi 12 dengan menerapkan arsitektur \nModel-View-Controller (MVC). Sistem menyediakan dua jenis akses utama, yaitu akses \npublik sebagai client untuk melakukan proses resolve tautan DRI, serta akses owner \n(penerbit) untuk melakukan manajemen publikasi melalui dashboard. \n4.1.1. ​ Halaman Resolver Tautan DRI (Akses Publik) \nHalaman resolver merupakan halaman publik yang dapat diakses tanpa proses \nautentikasi. Pengguna cukup mengakses tautan DRI yang telah terdaftar, kemudian sistem \nsecara otomatis akan mengalihkan pengguna ke URL artikel tujuan yang terbaru. Selain \nmelakukan pengalihan, sistem juga mencatat jumlah akses sebagai data analitik",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 17
+    }
+  },
+  {
+    "chunk_id": "chunk_0035",
+    "text": "melakukan pengalihan, sistem juga mencatat jumlah akses sebagai data analitik \nsederhana.Halaman ini berfungsi untuk memastikan bahwa artikel ilmiah tetap dapat diakses \nmeskipun lokasi URL aslinya mengalami perubahan. \n \nGambar 4.1 Halaman Resolver Tautan DRI \n \n​\n \n12",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 17
+    }
+  },
+  {
+    "chunk_id": "chunk_0036",
+    "text": "4.1.2​ Halaman Login Owner \nHalaman login digunakan oleh owner atau penerbit jurnal untuk mengakses sistem \nmanajemen. Pengguna diwajibkan memasukkan email dan kata sandi yang valid. Sistem \nmelakukan proses autentikasi sebelum memberikan akses ke dashboard owner. \n \nGambar 4.2 Halaman Login Owner \n \n4.1.3​ Dashboard Owner \nDashboard owner merupakan halaman utama setelah pengguna berhasil login. Pada \nhalaman ini ditampilkan ringkasan informasi seperti jumlah jurnal, jumlah artikel yang \nterdaftar, paket berlangganan yang sedang aktif, serta statistik jumlah klik artikel. Dashboard \nmembantu penerbit dalam memantau aktivitas publikasi secara keseluruhan. \n13",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 18
+    }
+  },
+  {
+    "chunk_id": "chunk_0037",
+    "text": "Gambar 4.3 Halaman Dashboard Owner \n4.1.4​ Manajemen Hirarki Publikasi \nFitur manajemen hirarki publikasi memungkinkan owner untuk mengelola data jurnal, \nvolume, dan artikel. Owner dapat melakukan operasi CRUD (Create, Read, Update, Delete) \nterhadap data publikasi. Pada saat penambahan artikel, sistem secara otomatis menghasilkan \nkode identitas DRI yang unik untuk setiap artikel. Fitur ini membantu penerbit dalam \nmenyusun struktur publikasi ilmiah secara rapi dan terorganisir. \n \nGambar 4.4 Halaman Manajemen Hirarki Publikasi \n \n \n \n \n14",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 19
+    }
+  },
+  {
+    "chunk_id": "chunk_0038",
+    "text": "4.1.5.​ Manajemen Paket Berlangganan \nHalaman paket berlangganan digunakan untuk menampilkan pilihan paket layanan \nyang tersedia, seperti paket Gratis dan Premium. Setiap paket memiliki batasan kuota artikel \ndan durasi layanan. Sistem akan melakukan validasi akses sehingga owner hanya dapat \nmenggunakan fitur sesuai dengan paket yang dipilih. \n \nGambar 4.5 Halaman Paket Berlangganan \n \n4.2.​\nHasil Pengujian Produk \nSetelah proses implementasi selesai, dilakukan tahap pengujian sistem untuk memastikan \nseluruh fitur berjalan sesuai dengan kebutuhan. Metode pengujian yang digunakan adalah \nBlack Box Testing, yaitu pengujian yang berfokus pada fungsi sistem tanpa memperhatikan \nstruktur kode program. \nTabel 4.1 Hasil Pengujian Produk \nNO \nFitur Yang Diuji Skenario \nPengujian \nHasil yang \nDiharapkan \nHasil \nPengujian \nStatus \n1 \nLogin Owner \nMemasukkan \nemail dan \npassword valid \nOwner \nberhasil login \nBerhasil login \nBerhasil \n2 \nLogin Owner \nMemasukkan data \ntidak valid \nSistem",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 20
+    }
+  },
+  {
+    "chunk_id": "chunk_0039",
+    "text": "Memasukkan \nemail dan \npassword valid \nOwner \nberhasil login \nBerhasil login \nBerhasil \n2 \nLogin Owner \nMemasukkan data \ntidak valid \nSistem \nmenolak akses \nAkses ditolak \nBerhasil \n3 \nGenerate DRI \nMenambahkan \nartikel baru \nKode DRI \notomatis \nterbentuk \nDRI terbentuk \nBerhasil \n15",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 20
+    }
+  },
+  {
+    "chunk_id": "chunk_0040",
+    "text": "4 \nResolver Tautan Mengakses tautan \nDRI \nDialihkan ke \nURL target \nBerhasil \ndialihkan \nBerhasil \n5 \nAnalitik Klik \nMengakses DRI \nberulang \nJumlah klik \nbertambah \nKlik tercatat \nBerhasil \n6 \nPaket \nBerlangganan \nAkses fitur \nmelebihi kuota \nSistem \nmemblokir \nakses \nAkses dibatasi \nBerhasil \nBerdasarkan hasil pengujian yang telah dilakukan, seluruh fitur utama pada aplikasi Digital \nResource Identifier (DRI) dapat berjalan dengan baik dan sesuai dengan kebutuhan yang \ntelah ditetapkan pada tahap perancangan. \n \n \n \n16",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 21
+    }
+  },
+  {
+    "chunk_id": "chunk_0041",
+    "text": "BAB V ​\nPENUTUP \n5.1. ​\nKesimpulan \nPengembangan aplikasi web Digital Resource Identifier (DRI) berhasil memenuhi \ntujuan utama proyek, yaitu menyediakan sistem registry dan resolver yang mampu \nmenghasilkan tautan identitas digital permanen bagi artikel ilmiah. Implementasi berbasis \nLaravel dan arsitektur MVC memungkinkan pengelolaan metadata jurnal secara terstruktur, \nserta mendukung fungsionalitas pengalihan tautan yang akurat meskipun terjadi perubahan \nlokasi URL asli. \nFitur manajemen publikasi, mekanisme resolver, dan sistem paket berlangganan dapat \ndijalankan dengan baik sesuai dengan kebutuhan yang telah dirumuskan dalam ruang lingkup \nproyek. Hasil pengujian menunjukkan bahwa seluruh fungsi inti, mulai dari autentikasi \npengguna, pembangkitan kode DRI, hingga pencatatan analitik, beroperasi secara stabil dan \nresponsif. Oleh karena itu, aplikasi ini dapat dinyatakan layak digunakan sebagai solusi",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 22
+    }
+  },
+  {
+    "chunk_id": "chunk_0042",
+    "text": "responsif. Oleh karena itu, aplikasi ini dapat dinyatakan layak digunakan sebagai solusi \nalternatif yang lebih terjangkau dan fleksibel dibandingkan sistem PID komersial seperti DOI \nuntuk skala institusi pendidikan atau penerbit kecil. \n \n5.2.​\nSaran \nMeskipun aplikasi telah berfungsi sesuai kebutuhan dasar, terdapat sejumlah \npengembangan lanjutan yang dapat meningkatkan keandalan dan daya saing sistem. Integrasi \nfitur keamanan tingkat lanjut seperti enkripsi metadata, validasi URL otomatis, serta audit log \nakses perlu dipertimbangkan untuk memperkuat aspek trust dan governance. Penerapan \ndashboard analitik lanjutan berbasis visualisasi juga dapat menambah nilai layanan bagi \npengguna premium. \nUntuk meningkatkan skalabilitas, migrasi menuju arsitektur berbasis microservices \ndan dukungan containerization seperti Docker dapat menjadi langkah strategis, terutama jika \nsistem digunakan oleh penerbit dalam jumlah besar. Terakhir, kolaborasi dengan institusi",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 22
+    }
+  },
+  {
+    "chunk_id": "chunk_0043",
+    "text": "sistem digunakan oleh penerbit dalam jumlah besar. Terakhir, kolaborasi dengan institusi \nakademik atau perpustakaan digital dapat menjadi kanal adopsi guna menguji performa \nsistem dalam lingkungan operasional nyata serta memperoleh umpan balik untuk iterasi \nberikutnya. \n \n17",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 22
+    }
+  },
+  {
+    "chunk_id": "chunk_0044",
+    "text": "DAFTAR PUSTAKA \n[1] J. Zittrain, \"The rotting internet,\" The Atlantic, vol. 30, 2021. [Online]. Available: \nhttps://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-rot/619346/. \n[2] T. Otwell, Laravel: The PHP Framework for Web Artisans. Laravel LLC, 2023. [Online]. \nAvailable: https://laravel.com/docs. \n[3] R. S. Pressman and B. R. Maxim, Software Engineering: A Practitioner's Approach, 9th ed. \nNew York, NY, USA: McGraw-Hill Education, 2020. \n[4] N. Paskin, \"Digital Object Identifier (DOI®) System,\" in Encyclopedia of Library and \nInformation Sciences, 3rd ed., CRC Press, 2010, pp. 1586–1592. \n[5] I. Sommerville, Software Engineering, 10th ed. London, UK: Pearson, 2016. \n  \n \n18",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 23
+    }
+  },
+  {
+    "chunk_id": "chunk_0045",
+    "text": "LAMPIRAN \nLAMPIRAN: FOTO KEGIATAN \n \nTanggal: 17/10/2025 \nFrontend dan PM sedang berdiskusi membuat tampilan utama / frontend \n \n \nTanggal: 10/11/2025 \nPembahasan fitur fitur dan tampilan utama, sebelum mempresentasikan prototype ke dosen \npembimbing dan mitra. \n \n \n19",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 24
+    }
+  },
+  {
+    "chunk_id": "chunk_0046",
+    "text": "Tanggal: 18/12/2025 \nPengujian blackbox oleh tester \n \n \nTanggal: 19/12/2025 \nFoto bersama anggota kelompok dan dosen pembimbing \n \n \n \n20",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 25
+    }
+  },
+  {
+    "chunk_id": "chunk_0047",
+    "text": "LAMPIRAN: LOGBOOK BULANAN \n \nBulan \nOktober 2025 \nTanggal \nDeskripsi Kegiatan dan Capaian \nBukti atau Link Terkait \n16/10/2025 \nPertemuan pertama bersama mitra sekaligus \ndosen pembimbing \n[10/16, 9:35 AM] Mohammad \nHikam: Selamat pagi pak, \nuntuk bimbingan nanti di \nruangan mana ya pak? \n[10/16, \n9:46 AM] \nPak \nMaulidi(MDI) ak Pak Mad: Di \nIOT205 \n[10/16, 9:47 AM] Mohammad \nHikam: Baik pak, terimakasih \natas informasinya \n \n23/10/2025 \nPertemuan kedua membahas fitur fitur yang \ndiperlukan serta penentuan nama aplikasi \nwebsite \n[10/23, \n12:28 PM] \nToriq: \nPermisi Pak Maulidi, dari \nkami \nrencananya \nakan \nmemulai bimbingan dengan \nbapak \ndi jam 2, apakah \nberkenan pak? Terimakasih \n[10/23, \n12:28 PM] \nPak \nMaulidi(MDI) ak Pak Mad: \nOkay \n[10/23, \n12:29 PM] \nToriq: \nTerimakasih Pak \n[10/23, 2:08 PM] Mohammad \nHikam: \nPak \nkami \nsudah \nberkumpul di DC 201 \n[10/23, \n2:14 PM] \nPak \nMaulidi(MDI) ak Pak Mad: \nruangannya bisa dipakai? \n[10/23, \n2:15 PM] \nBima: \ninsyaallah bisa pak",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 26
+    }
+  },
+  {
+    "chunk_id": "chunk_0048",
+    "text": "berkumpul di DC 201 \n[10/23, \n2:14 PM] \nPak \nMaulidi(MDI) ak Pak Mad: \nruangannya bisa dipakai? \n[10/23, \n2:15 PM] \nBima: \ninsyaallah bisa pak \n \n30/10/2025 \nUpdate progress arsitektur, frontend, dan \nbackend kepada dosen pembimbing sekaligus \nmitra  \n[10/30, \n1:27 PM] \nPak \nMaulidi(MDI) ak Pak Mad: \nHari ini ada meet? \n[10/30, 1:28 PM] Rijal: Tidak \nada pak, sekarang lagi kelas \n[10/30, \n1:28 PM] \nPak \nMaulidi(MDI) ak Pak Mad: \nupdate \ndi \ngroup \nya, \nprogressnya \n[10/30, 1:31 PM] Mohammad \nHikam: arsitektur \n21",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 26
+    }
+  },
+  {
+    "chunk_id": "chunk_0049",
+    "text": "https://app.diagrams.net/#G19\nSGcO0SntlCNOs9_qKUZ0Oe\n_WcMXdH5I#%7B%22pageI\nd%22%3A%22IKmMWY07u\n3kceH9o_ept%22%7D \nfrontend \nhttps://github.com/piezzy/Cite\ndex \nbackend \nhttps://github.com/ZalEmpero\nn/CiteDex \n \nini pak untuk progressnya, \nsekarang sudah mulai proses \ndi frontend, mungkin nanti \ndirevisi \nlagi \nkarena \nada \npenyesuaian \ndengan \nfitur \nbackend, soalnya backendnya \nbaru mulai dikerjakan minggu \nini \n \n \n \nBulan \nNovember 2025 \nTanggal \nDeskripsi Kegiatan dan Capaian \nBukti atau Link Terkait \n13/11/2025 \nPertemuan \nmembahas \nprogress \nprototype \nbersama dosen pembimbing sekaligus mitra \n[11/13, \n10:45 AM] \nMohammad \nHikam: \nAssalamualaikum pak, \nApakah pukul 12.30 bapak \nbersedia \nmelaksanakan \nbimbingan? \nKami \ningin \nmelaporkan progres. \n[11/13, \n10:46 AM] \nPak \nMaulidi(MDI) ak Pak Mad: \nGas! \n[11/13, \n12:26 PM] \nBima: \npermisi \npak, \nkira \nkira \nberkumpul dimana ya? kursi \ndi IOT sudah penuh dan kelas \nkemarin masih ada orangnya \npak. Atau apakah berkenan",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 27
+    }
+  },
+  {
+    "chunk_id": "chunk_0050",
+    "text": "Bima: \npermisi \npak, \nkira \nkira \nberkumpul dimana ya? kursi \ndi IOT sudah penuh dan kelas \nkemarin masih ada orangnya \npak. Atau apakah berkenan \njika di ruangan bapak atau \nruangan pilihan bapak? \n[11/13, \n12:33 PM] \nPak \nMaulidi(MDI) ak Pak Mad: \nok, bisa di ruangan saya \n \n22",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 27
+    }
+  },
+  {
+    "chunk_id": "chunk_0051",
+    "text": "Bulan \nDesember 2025 \nTanggal \nDeskripsi Kegiatan dan Capaian \nBukti atau Link Terkait \n3-6/11/2025 \nPembahasan \nposter \nbersama \ndosen \npembimbing sekaligus mitra \n[12/6, \n7:10 AM] \nPak \nMaulidi(MDI) ak Pak Mad: \ndeskripsi \nsingkat \nproduk \nkurang \npas \nyang \"Sistem \nResolver ... dst\" \n[12/6, \n7:14 AM] \nPak \nMaulidi(MDI) ak Pak Mad: \nDRI/DOI itu pengenal unik, \npersisten, dan permanen \n[12/6, \n7:15 AM] \nPak \nMaulidi(MDI) ak Pak Mad: \nnarasi yang nomer 1 kurang \npas, \nkarena \nada \nnarasi \nmeskippun lokasi file aslinya \nberubah \n[12/6, \n7:16 AM] \nPak \nMaulidi(MDI) ak Pak Mad: \nsepertinya kita perlu diskui \noffline ttg poster ini, terutama \ntim desinernya \n[12/6, 7:22 AM] Bima: Maaf \nPak, \ndikarenakan \ndeadline \nuntuk \nposter \nadalah \nkamis-jumat \nkemaren \njadi \nhanya melakukan beberapa \nrevisi seperti tambahan ss dan \ncontoh link. \n[12/6, 7:24 AM] Mohammad \nHikam: \nsaya \ncoba \nganti \nsegera, semoga belum dikirim \nke zupper untuk di print \n[12/6, \n7:32 AM] \nPak",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 28
+    }
+  },
+  {
+    "chunk_id": "chunk_0052",
+    "text": "contoh link. \n[12/6, 7:24 AM] Mohammad \nHikam: \nsaya \ncoba \nganti \nsegera, semoga belum dikirim \nke zupper untuk di print \n[12/6, \n7:32 AM] \nPak \nMaulidi(MDI) ak Pak Mad: \nTautan unik, persisten, dan \npermanen \ndigital \nresource \nAnda \n[12/6, \n7:32 AM] \nPak \nMaulidi(MDI) ak Pak Mad: yg \nSistem Resolver diganti itu \n[12/6, \n7:34 AM] \nPak \nMaulidi(MDI) ak Pak Mad: \nSS dibuat lebih besar biar jadi \nPOV, hilangkan image yang \n23",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 28
+    }
+  },
+  {
+    "chunk_id": "chunk_0053",
+    "text": "gak \nada \nkaitannya \ndenga \nproduk \nsepeti \npenghapus, \npenggaris, buku \n \n \nLAMPIRAN: LINK  \nKeterangan \nLink \nGithub \nhttps://github.com/ZalEmperon/Digital-Resourc\ne-Identifier \nDiagram \nhttps://app.diagrams.net/#G19SGcO0SntlCNOs\n9_qKUZ0Oe_WcMXdH5I#%7B%22pageId%2\n2%3A%22IKmMWY07u3kceH9o_ept%22%7D \nPoster \nhttps://www.canva.com/design/DAG6Wlnz7k0/\nkDfYK32gTzFvIMYc3oI_Zw/edit?utm_content\n=DAG6Wlnz7k0&utm_campaign=designshare\n&utm_medium=link2&utm_source=sharebutton \n \n \n24",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 29
+    }
+  },
+  {
+    "chunk_id": "chunk_0054",
+    "text": "LAMPIRAN: AKTIFITAS GITHUB \nTanggal \n(Estimasi) \nDeskripsi Kegiatan \nCapaian \nBukti / Link \nCommit \n13 Nov 2025 \nInisialisasi repository \nStruktur proyek awal Laravel dibuat \ndan dikonfigurasi \n56632f8 \n13 Nov 2025 \nMinor Fix 1 \nPerbaikan \nerror \ntampilan \ndan \nkonfigurasi awal \n56632f8…f3391d\n7 \n13 Nov 2025 \nUbah Tampilan \nStyling awal antarmuka \nf3391d7…de4131\n8 \n20–28 \nNov \n2025 \nMinor Fix 2, Medium \nFix 1 \nDebugging awal dan peningkatan \nstabilitas fitur inti \nde41318…f1754e\n9 → 9ccaaca \n27 Nov – 1 Dec \n2025 \nProto 1 \nRancangan awal modul manajemen \npublikasi dan analytics \n9ccaaca…259971\nc \n2–4 Dec 2025 \nStats Update \nImplementasi \npencatatan \nklik \n(analytics) \n259971c…1fc912\n3 \n4–6 Dec 2025 \nBatch Update \nCRUD batch publikasi berjalan \n1fc9123…8f81f2\n0 \n6–10 Dec 2025 \nMedium Fix 2 \nRevisi fitur & penanganan error \nbatch \n8f81f20…34cd33\n5 \n12–13 \nDec \n2025 \nNot Done 1 \nRevisi fitur yang belum stabil \n34cd335…2d0ba\na3 \n13–14 \nDec \n2025 \nfikri / fikri1",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 30
+    }
+  },
+  {
+    "chunk_id": "chunk_0055",
+    "text": "batch \n8f81f20…34cd33\n5 \n12–13 \nDec \n2025 \nNot Done 1 \nRevisi fitur yang belum stabil \n34cd335…2d0ba\na3 \n13–14 \nDec \n2025 \nfikri / fikri1 \nKontribusi anggota untuk modul \ntertentu \n2d0baa3…6a53e0\n5 \n14 Dec 2025 \nhapus AI di home \nawal \nRevisi tampilan landing \nb4a2ead…e7f113\n9 \n15 Dec 2025 \nrevamp landing page \nUI/UX landing disempurnakan \ne7f1139…6e6f45\nc \n15–16 \nDec \n2025 \nedit verify page \nHalaman verifikasi diperbaiki \n6e6f45c…382772\n6 \n16 Dec 2025 \nrevamp dashboard \nDashboard owner direvisi \n3827726…cd89c\ncf \n17 Dec 2025 \nPaymentFix? \nImplementasi dan debugging sistem \npembayaran \ncd89ccf…990419\n3 \n25",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 30
+    }
+  },
+  {
+    "chunk_id": "chunk_0056",
+    "text": "17 Dec 2025 \nshop \nIntegrasi halaman shop / paket \nlayanan \n9904193…3eef2a\na \n18 Dec 2025 \nrevamp \nartikel/manage \nUI manajemen artikel diperbarui \n3eef2aa…ae721b\n1 \n18 Dec 2025 \nundo manage jurnal \nRevert perubahan yang tidak stabil \nae721b1…4a049\n0a \n18 Dec 2025 \nupdate manage jurnal \nPerbaikan dan finalisasi manajemen \njurnal \n4a0490a…decb04\n2 \n18 Dec 2025 \nrevamp \ntampilan \nform artikel \nPenyempurnaan form input artikel \ndecb042…b66dc\n0b \n \n26",
+    "meta_data": {
+      "source": "Laporan_Computing_Project_Kelompok_1.pdf",
+      "page": 31
+    }
+  }
+]
