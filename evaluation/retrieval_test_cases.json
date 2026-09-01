@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Apa framework backend yang digunakan dalam project DRI?",
+    "relevant_chunks": ["chunk_0025"]
+  },
+  {
+    "question": "Teknologi apa saja yang digunakan dalam project DRI?",
+    "relevant_chunks": ["chunk_0025", "chunk_0026"]
+  },
+  {
+    "question": "Apa database yang digunakan dalam project DRI?",
+    "relevant_chunks": ["chunk_0025", "chunk_0026"]
+  },
+  {
+    "question": "Bahasa pemrograman apa yang digunakan dalam project DRI?",
+    "relevant_chunks": ["chunk_0025"]
+  },
+  {
+    "question": "Berapa minimal versi PHP yang digunakan?",
+    "relevant_chunks": ["chunk_0025"]
+  },
+  {
+    "question": "Apa fungsi resolver DRI?",
+    "relevant_chunks": ["chunk_0012"]
+  },
+  {
+    "question": "Berapa lama proyek DRI dikerjakan?",
+    "relevant_chunks": ["chunk_0022"]
+  },
+  {
+    "question": "Apa saja functional requirement sistem?",
+    "relevant_chunks": ["chunk_0029", "chunk_0030"]
+  },
+  {
+    "question": "Apa teknologi frontend yang digunakan dalam project DRI?",
+    "relevant_chunks": ["chunk_0026"]
+  },
+  {
+    "question": "Apa pola arsitektur yang digunakan oleh Laravel dalam project DRI?",
+    "relevant_chunks": ["chunk_0025"]
+  }
+]

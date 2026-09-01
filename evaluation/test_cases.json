@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Apa framework backend yang digunakan dalam project DRI?",
+    "type": "keyword",
+    "expected": ["Laravel", "12"]
+  },
+  {
+    "question": "Teknologi apa saja yang digunakan dalam project DRI?",
+    "type": "keyword",
+    "expected": ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Vite"]
+  },
+  {
+    "question": "Apa database yang digunakan dalam project DRI?",
+    "type": "keyword",
+    "expected": ["MySQL"]
+  },
+  {
+    "question": "Bahasa pemrograman apa yang digunakan dalam project DRI?",
+    "type": "keyword",
+    "expected": ["PHP"]
+  },
+  {
+    "question": "Berapa versi Laravel yang digunakan dalam project DRI?",
+    "type": "keyword",
+    "expected": ["Laravel", "12"]
+  },
+  {
+    "question": "Berapa minimal versi PHP yang digunakan?",
+    "type": "keyword",
+    "expected": ["PHP", "8.2"]
+  },
+  {
+    "question": "Apa fungsi resolver DRI?",
+    "type": "keyword",
+    "expected": ["resolver", "URL"]
+  },
+  {
+    "question": "Apa metodologi pengembangan yang digunakan?",
+    "type": "keyword",
+    "expected": ["Agile"]
+  },
+  {
+    "question": "Berapa lama proyek DRI dikerjakan?",
+    "type": "keyword",
+    "expected": ["16 minggu"]
+  },
+  {
+    "question": "Apa saja functional requirement sistem?",
+    "type": "keyword",
+    "expected": ["FR-01", "FR-21"]
+  },
+  {
+    "question": "Apa teknologi frontend yang digunakan dalam project DRI?",
+    "type": "keyword",
+    "expected": ["Tailwind CSS", "Vite"]
+  },
+  {
+    "question": "Apa teknologi backend yang digunakan dalam project DRI?",
+    "type": "keyword",
+    "expected": ["Laravel", "PHP"]
+  },
+  {
+    "question": "Bagaimana resolver DRI menangani URL artikel?",
+    "type": "keyword",
+    "expected": ["resolver", "URL"]
+  },
+  {
+    "question": "Apa yang dilakukan sistem ketika pengguna mengakses identitas sumber daya?",
+    "type": "keyword",
+    "expected": ["URL"]
+  },
+  {
+    "question": "Apa pola arsitektur yang digunakan oleh Laravel dalam project DRI?",
+    "type": "keyword",
+    "expected": ["MVC"]
+  },
+  {
+    "question": "Apakah project DRI menggunakan React.js?",
+    "type": "negative",
+    "expected": ["React.js", "Tidak"]
+  },
+  {
+    "question": "Apakah project DRI menggunakan MongoDB sebagai database?",
+    "type": "negative",
+    "expected": ["MongoDB", "Tidak"]
+  },
+  {
+    "question": "Apakah project DRI menggunakan PostgreSQL?",
+    "type": "negative",
+    "expected": ["PostgreSQL", "Tidak"]
+  },
+  {
+    "question": "Apakah project DRI menggunakan Laravel sebagai framework backend dan MySQL sebagai database?",
+    "type": "keyword",
+    "expected": ["Laravel", "MySQL"]
+  },
+  {
+    "question": "Sebutkan teknologi utama yang digunakan untuk membangun project DRI beserta perannya.",
+    "type": "keyword",
+    "expected": ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Vite"]
+  }
+]
