@@ -54,3 +54,40 @@ class QdrantStore:
         )
         
         print(f"{len(points)} documents indexed")
+    
+    def get_neighbor_chunks(self, chunk_id, window=1):
+        
+        chunk_number = int(
+            chunk_id.replace("chunk_", "")
+        )
+        
+        neighbors = []
+        
+        for offset in range(-window, window + 1):
+            neighbor_number = chunk_number + offset
+            
+            if neighbor_number < 0:
+                continue
+            
+            neighbor_id = f"chunk_{neighbor_number:04d}"
+            
+            result = self.client.scroll(
+                collection_name=COLLECTION_NAME,
+                scroll_filter={
+                    "must": [
+                        {
+                            "key": "chunk_id",
+                            "match": {
+                                "value": neighbor_id
+                            }
+                        }
+                    ]
+                },
+                limit=1,
+                with_payload=True
+            )[0]
+            
+            if result:
+                neighbors.append(result[0])
+        
+        return neighbors

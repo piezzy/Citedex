@@ -10,24 +10,32 @@ class Reranker:
         )
     print(f"{MODEL_NAME} loaded successfully")
     
-    def rerank(self, query, documents, top_k=3):
+    def rerank(self, query, results, top_k=3):
 
-        scored_documents = []
+        scored_results = []
 
-        for document in documents:
-
+        for result in results:
+            
+            document = result.payload['text']
+            
             score = self.model.compute_score(
                 [query, document],
                 normalize=True
             )
-
-            scored_documents.append(
-                (document, score)
+            
+            scored_results.append(
+                {
+                    "text": document,
+                    "score": score[0],
+                    "chunk_id": result.payload['chunk_id'],
+                    "source": result.payload['source'],
+                    "page": result.payload['page']
+                }
             )
-
-        scored_documents.sort(
-            key=lambda x: x[1],
+        
+        scored_results.sort(
+            key=lambda x: x['score'],
             reverse=True
         )
 
-        return scored_documents[:top_k]
+        return scored_results[:top_k]
