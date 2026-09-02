@@ -72,35 +72,64 @@ class RAG:
                 seen.add(neighbor_id)
 
         return expanded
+
+    def filter_cited_sources(self, answer, sources):
+        import re
+        
+        cited_numbers = {
+            int(number)
+            for number in re.findall(r"\[(\d+)\]", answer)
+        }
+        
+        filtered_sources = []
+        
+        for index, source in enumerate(sources, start=1):
+            if index in cited_numbers:
+                filtered_sources.append({
+                    "citation": index,
+                    "page": source["page"],
+                    "source": source["source"],
+                    "chunk_id": source["chunk_id"],
+                    "text": source["text"]   
+                })
+        return filtered_sources
     
     def build_context(self, results):
-
         context_parts = []
 
-        for result in results:
-
+        for i, result in enumerate(results, start=1):
             context_parts.append(
                 f"""
-    [Source: {result['source']} | Page: {result['page']}]
+    [SOURCE {i}]
+    Page: {result['page']}
+    Chunk: {result['chunk_id']}
 
     {result['text']}
     """
             )
 
         return "\n".join(context_parts)
-        
+    
     def generate(self, query, context):
-        
         prompt = f"""
     You are an assistant answering questions about the
     Digital Resource Identifier (DRI) project.
 
     Answer the question ONLY using the provided context.
 
-    If the answer cannot be found in the context,
-    say that the information is not available in the document.
+    STRICT GROUNDING RULES:
+    - Do not add information that is not explicitly stated in the context.
+    - Do not make assumptions or generalizations.
+    - Do not explain why a technology was chosen unless the context explicitly states the reason.
+    - If the answer cannot be found in the context, say:
+    "Informasi tersebut tidak tersedia dalam dokumen."
 
-    Do not make up information.
+    CITATION RULES:
+    - Cite factual statements using [1], [2], etc.
+    - Use ONLY citation numbers that exist in the provided context.
+    - Do not invent citation numbers.
+    - Put citations immediately after the statement they support.
+    - If multiple sources support a statement, multiple citations may be used.
 
     CONTEXT:
     {context}
@@ -110,38 +139,23 @@ class RAG:
 
     ANSWER:
     """
+
         return self.llm.generate(prompt)
 
     def ask(self, query):
-
         results = self.retrieve(query, top_k=10)
-
-        expanded_results = self.expand_neighbors(
-            results,
-            window=1
-        )
-
-        reranked_results = self.rerank(
-            query,
-            expanded_results,
-            top_k=3
-        )
-        
+        expanded_results = self.expand_neighbors(results, window=1)
+        reranked_results = self.rerank(query, expanded_results, top_k=3)
         final_results = self.expand_reranked_neighbors(
             reranked_results,
             window=1
         )
 
-        context = self.build_context(
-            final_results
-        )
+        context = self.build_context(final_results)
+        answer = self.generate(query, context)
+        sources = self.filter_cited_sources(answer, final_results)
 
-        answer = self.generate(
-            query,
-            context
-        )
-
-        return answer, reranked_results
+        return answer, sources
     
     def expand_neighbors(self, results, window=1):
 
