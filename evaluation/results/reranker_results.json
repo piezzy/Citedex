@@ -1,0 +1,16 @@
+{
+  "evaluation": "Dense Retrieval + BGE Reranker",
+  "total_test_cases": 10,
+  "dense_retrieval": {
+    "Recall@1": 60.0,
+    "Recall@3": 90.0,
+    "Recall@5": 100.0,
+    "Recall@10": 100.0
+  },
+  "reranked": {
+    "Recall@1": 90.0,
+    "Recall@3": 100.0,
+    "Recall@5": 100.0,
+    "Recall@10": 100.0
+  }
+}

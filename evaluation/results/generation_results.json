@@ -1,0 +1,90 @@
+{
+  "evaluation": "generation evaluation",
+  "total_test_cases": 5,
+  "metrics": {
+    "grounded_rate": 100.0,
+    "citation_correct_rate": 100.0
+  },
+  "results": [
+    {
+      "id": "GEN-01",
+      "question": "Apa framework backend yang digunakan dalam project DRI?",
+      "answer": "Framework backend yang digunakan dalam project DRI adalah **Laravel versi 12.0**, sebagai kerangka kerja utama berbasis PHP yang mengadopsi pola arsitektur MVC [2].",
+      "grounded": true,
+      "citation_correct": true,
+      "sources": [
+        {
+          "citation": 2,
+          "page": 12,
+          "chunk_id": "chunk_0025"
+        }
+      ]
+    },
+    {
+      "id": "GEN-02",
+      "question": "Apa saja teknologi yang digunakan dalam project DRI?",
+      "answer": "Teknologi yang digunakan dalam proyek DRI meliputi:  \n1. **Framework Backend**: Laravel versi 12.0, sebagai kerangka kerja utama berbasis PHP dengan arsitektur MVC [2].  \n2. **Bahasa Pemrograman**: PHP (minimal versi 8.2) [2].  \n3. **Basis Data**: MySQL, digunakan untuk menyimpan data relasional seperti Registry Identitas Sumber Daya, data jurnal, dan data paket berlangganan [2][3].  \n4. **Frontend Styling**: Tailwind CSS, digunakan untuk styling antarmuka pengguna dengan desain responsif dan cepat [3].  \n5. **Asset Bundling**: Vite, digunakan untuk kompilasi dan manajemen aset frontend [3].",
+      "grounded": true,
+      "citation_correct": true,
+      "sources": [
+        {
+          "citation": 2,
+          "page": 12,
+          "chunk_id": "chunk_0025"
+        },
+        {
+          "citation": 3,
+          "page": 12,
+          "chunk_id": "chunk_0026"
+        }
+      ]
+    },
+    {
+      "id": "GEN-03",
+      "question": "Apa fungsi resolver DRI?",
+      "answer": "Fungsi resolver DRI adalah sebagai mesin pengalihan yang menerima permintaan identitas sumber daya di routing publik dan mengalihkan pengguna ke URL target artikel yang paling baru, serta mencatat dan menambah penghitung klik setiap kali identitas sumber daya diakses untuk memberikan statistik penggunaan artikel [8]. Selain itu, resolver DRI memastikan tautan artikel tetap dapat diakses meskipun lokasi aslinya berubah [2].",
+      "grounded": true,
+      "citation_correct": true,
+      "sources": [
+        {
+          "citation": 2,
+          "page": 6,
+          "chunk_id": "chunk_0012"
+        },
+        {
+          "citation": 8,
+          "page": 12,
+          "chunk_id": "chunk_0026"
+        }
+      ]
+    },
+    {
+      "id": "GEN-04",
+      "question": "Apakah project DRI menggunakan React.js?",
+      "answer": "Tidak, proyek DRI tidak menggunakan React.js. Teknologi yang digunakan untuk frontend meliputi Tailwind CSS untuk styling dan Vite untuk manajemen aset frontend, sementara framework backend yang digunakan adalah Laravel [8].",
+      "grounded": true,
+      "citation_correct": true,
+      "sources": [
+        {
+          "citation": 8,
+          "page": 12,
+          "chunk_id": "chunk_0025"
+        }
+      ]
+    },
+    {
+      "id": "GEN-05",
+      "question": "Apa database yang digunakan dalam project DRI?",
+      "answer": "Database yang digunakan dalam project DRI adalah MySQL [2].",
+      "grounded": true,
+      "citation_correct": true,
+      "sources": [
+        {
+          "citation": 2,
+          "page": 12,
+          "chunk_id": "chunk_0025"
+        }
+      ]
+    }
+  ]
+}

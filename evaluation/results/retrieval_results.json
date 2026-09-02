@@ -1,0 +1,10 @@
+{
+  "evaluation": "Dense Retrieval",
+  "total_test_cases": 10,
+  "metrics": {
+    "Recall@1": 60.0,
+    "Recall@3": 90.0,
+    "Recall@5": 100.0,
+    "Recall@10": 100.0
+  }
+}
